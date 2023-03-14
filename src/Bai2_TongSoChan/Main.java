@@ -12,7 +12,7 @@ public class Main {
             int number = sc.nextInt();
             if (number > 0) {
                 //        Tính tổng
-                System.out.println("Kết quả: " + getSum(number));
+                System.out.println("Tổng của các số chẵn từ 0 đến " + number +": " + getSum(number));
                 return;
             } else {
                 System.out.println("Nhập vào số nguyên dương!");
