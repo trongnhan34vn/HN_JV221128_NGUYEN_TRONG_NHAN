@@ -1,13 +1,17 @@
 package Bai3;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Nhập vào 1 mảng gồm 50 phần tử");
         int[] arr = new int[50];
+        int random = (int) Math.random();
+        random = random * 100 + 1;
+        System.out.println(random);
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) Math.floor(Math.random() * 100);
+            arr[i] = new Random().nextInt(100) + 1;
         }
         System.out.println("Mảng: " + Arrays.toString(arr));
 
