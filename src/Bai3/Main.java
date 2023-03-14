@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Nhập vào 1 mảng gồm 50 phần tử");
         int[] arr = new int[50];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = new Random().nextInt(100) + 1;
+            arr[i] = new Random().nextInt(99) + 1;
         }
         System.out.println("Mảng: " + Arrays.toString(arr));
 
