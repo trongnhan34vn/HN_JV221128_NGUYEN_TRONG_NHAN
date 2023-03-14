@@ -13,7 +13,7 @@ public class Main {
         while (true) {
             System.out.println("Nhập vào tuổi của bạn: ");
             int age = sc.nextInt();
-            if (age > 0 && age <= 120) {
+            if (age >= 0 && age <= 120) {
                 int birthYear = year - age;
                 System.out.println("Kết quả: " + can(birthYear) + " " + chi(birthYear));
                 return;
